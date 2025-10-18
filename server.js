@@ -7,9 +7,7 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(
-  cors({
-    origin: ["http://localhost:5173", "https://me-profile-api.pxxl.click"],
-  })
+  cors()
 );
 app.use(express.json());
 
