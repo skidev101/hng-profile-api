@@ -17,8 +17,7 @@ To get this project up and running locally, follow these instructions.
 ### Installation
 1.  **Clone the Repository**:
     ```bash
-    git clone <repository-url>
-    # Replace <repository-url> with the actual URL of your repository
+    git clone (https://github.com/skidev101/hng-profile-api.git)
     ```
 2.  **Navigate to Project Directory**:
     ```bash
@@ -28,13 +27,13 @@ To get this project up and running locally, follow these instructions.
     The project uses `pnpm` as its package manager.
     ```bash
     pnpm install
-    # If you prefer npm, use: npm install
+    
     ```
 4.  **Start the Server**:
     For development with auto-restarts on file changes:
     ```bash
     pnpm dev
-    # Or for a production-like start: npm start
+  
     ```
     The server will start on the configured port, typically `http://localhost:3000`.
 
